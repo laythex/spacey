@@ -2,19 +2,22 @@
 
 #include <vector>
 
-using std::vector;
-
 #include "StarSystem.hpp"
+#include "constants.cpp"
 
 class World
 {
 public:
 	World();
 
+	std::vector<StarSystem> getStarSystems() const;
+
 private:
 	void generate();
 
-	vector<StarSystem> starSystems;
+	std::vector<StarSystem> starSystems;
 
 };
+
+std::ostream& operator<<(std::ostream& os, World world);
 

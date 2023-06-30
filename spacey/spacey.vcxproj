@@ -151,14 +151,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="constants.cpp" />
     <ClCompile Include="GameController.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Planet.cpp" />
     <ClCompile Include="StarSystem.cpp" />
+    <ClCompile Include="tools.cpp" />
     <ClCompile Include="World.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="constants.hpp" />
     <ClInclude Include="GameController.hpp" />
     <ClInclude Include="Planet.hpp" />
     <ClInclude Include="StarSystem.hpp" />
